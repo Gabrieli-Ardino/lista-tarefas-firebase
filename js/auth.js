@@ -15,7 +15,7 @@ function login() {
           })
           .then(() => {
             setTimeout(() => {
-              window.location.replace("página.html")
+              window.location.replace("index.html")
             }, 1000)
           })
       })
@@ -70,7 +70,7 @@ function login() {
           .fire({ icon: "success", title: "Usuário foi criado com sucesso" })
           .then(() => {
             setTimeout(() => {
-              window.location.replace("página.html")
+              window.location.replace("index.html")
             }, 1000)
           })
       })
